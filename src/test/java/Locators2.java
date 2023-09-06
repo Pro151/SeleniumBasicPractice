@@ -35,6 +35,7 @@ public class Locators2 {
         String password = getPassword(driver);
 
         driver.get("https://rahulshettyacademy.com/locatorspractice/");
+        Thread.sleep(1000);
 
         driver.findElement(By.id("inputUsername")).sendKeys(name);
 
